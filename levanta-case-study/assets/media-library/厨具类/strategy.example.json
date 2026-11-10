@@ -1,0 +1,67 @@
+{
+  "_notice": "示例配置含真实案例的后台数据与合作方信息，仅供团队内部作格式参考；不得外发，不得作为新案例的数据。",
+  "insert_after": 5,
+  "eyebrow": "站外推广 · 媒体组合",
+  "title": "厨具品牌的站外媒体组合",
+  "subtitle": "按 Levanta 联盟伙伴类型整理，同类品牌已在组合使用；具体合作媒体以双方匹配为准。",
+  "columns": [
+    "媒体类型",
+    "适合做的内容",
+    "主要作用",
+    "媒体举例"
+  ],
+  "rows": [
+    {
+      "type": "内容媒体与垂类媒体",
+      "type_sub": "美食、家居生活类媒体及综合媒体测评栏目",
+      "content": "刀具／锅具单品测评、厨房使用场景文章、「值得买」推荐",
+      "role": "建立产品可信度，覆盖主动搜索和比较的消费者",
+      "examples": "People Inc. 旗下美食媒体（Food & Wine、Allrecipes 等）；CNN Underscored"
+    },
+    {
+      "type": "榜单与导购",
+      "type_sub": "购物导购、婚礼与节日礼物清单、对比榜单",
+      "content": "刀具套装榜单、婚礼登记与节日礼物清单、对比评测",
+      "role": "承接明确购买意向，带购买入口转化",
+      "examples": [
+        "Shop TODAY、BestReviews、Bargain Hunter、",
+        "The Knot（婚礼清单）"
+      ]
+    },
+    {
+      "type": "红人创作者",
+      "type_sub": "烹饪、美食、家庭生活类创作者",
+      "content": "烹饪实测、食材处理教程、开箱与切割测试视频",
+      "role": "用真实厨房场景激发兴趣，种草到下单",
+      "examples": [
+        "YouTube 开箱实测；TikTok／Instagram 美食创作者",
+        "Paul Finds、Tried Tested Reviewed"
+      ]
+    },
+    {
+      "type": "Deal 与 Coupon",
+      "type_sub": "折扣社区、优惠码站、比价工具、Newsletter",
+      "content": "Prime Day／黑五网一 Deal 帖、折扣码、价格追踪、邮件选品推送",
+      "role": "放大促销期流量，冲排名与清库存",
+      "examples": "Slickdeals、DealSeek、COUPERT、CouponFeature"
+    },
+    {
+      "type": "Media Buyer",
+      "type_sub": "付费引流",
+      "content": "搜索广告 → 刀具榜单／测评落地页",
+      "role": "按成交付费获取增量流量，不占自有广告预算",
+      "examples": "Google 搜索广告 → 导购榜单页（Bargain Hunter 等）"
+    }
+  ],
+  "band": "以上类型均可通过 Levanta 一站接入：按成交计佣、Amazon 官方 API 归因，同一后台管理全部伙伴。",
+  "footer": "媒体举例来自本案例三个品牌的创作者报告（有成交）或第 4–5 页公开截图，仅说明伙伴类型，不代表合作承诺。",
+  "notes": "本页为通用策略页模板在厨具品类的实例（模板 strategy-page-default.json）。媒体举例依据：People Inc.（B US$11,375.82，Creator Connections；旗下 Food & Wine、Allrecipes、Serious Eats、The Spruce Eats 等，第 4 页 Food & Wine 截图）、The Knot Weddings（B US$9,936.75）、BestReviews（B US$1,488.19）、Paul Finds（B US$2,277.22）、Tried Tested Reviewed（B US$2,078.83）、Slickdeals LLC（B US$1,264.74）、DealSeek（B US$2,157.70）、COUPERT（A US$7,266.49、C US$2,111.44）、CouponFeature（A US$454.96）、camelcamelcamel（A US$209.97）——以上为创作者报告可见成交；CNN Underscored、Shop TODAY、Bargain Hunter、YouTube 开箱实测为用户提供的第 4–5 页公开截图。底部只保留 Levanta 定位一句，不写演示 CTA。",
+  "col_widths": [
+    230,
+    290,
+    270,
+    384.4
+  ],
+  "row_height": 76,
+  "band_height": 46
+}

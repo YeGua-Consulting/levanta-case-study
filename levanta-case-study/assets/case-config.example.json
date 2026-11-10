@@ -1,0 +1,176 @@
+{
+  "_notice": "示例配置含真实案例的后台数据与合作方信息，仅供团队内部作格式参考；不得外发，不得作为新案例的数据。",
+  "category": "儿童玩具与 DIY 类",
+  "period_word": "近三个月",
+  "periods": {
+    "品牌 A": "0801–1031",
+    "品牌 B": "0801–1031",
+    "品牌 C": "0801–1031"
+  },
+  "product": {
+    "品牌 A": [
+      "儿童玩具与 DIY 产品",
+      "Kids' Toys & DIY Products"
+    ],
+    "品牌 B": [
+      "儿童玩具与 DIY 产品",
+      "Kids' Toys & DIY Products"
+    ],
+    "品牌 C": [
+      "儿童玩具与 DIY 产品",
+      "Kids' Toys & DIY Products"
+    ]
+  },
+  "shots": {
+    "品牌 A": [
+      "儿童玩具与 DIY 产品_品牌A_效果报告.png",
+      "儿童玩具与 DIY 产品_品牌A_创作者报告.png"
+    ],
+    "品牌 B": [
+      "儿童玩具与 DIY 产品_品牌B_效果报告.png",
+      "儿童玩具与 DIY 产品_品牌B_创作者报告.png"
+    ],
+    "品牌 C": [
+      "儿童玩具与 DIY 产品_品牌C_效果报告.png",
+      "儿童玩具与 DIY 产品_品牌C_创作者报告.png"
+    ]
+  },
+  "ranking_image": null,
+  "conclusion": {
+    "title": "案例结论：礼物指南媒体与亲子创作者带来成交，BRB 抵扣后渠道 ROAS 达 11.03×–13.44×",
+    "partners": [
+      "礼物指南与内容媒体是重要出单来源：People Inc. 在品牌 C 成交领先，Wirecutter、Babylist、Evite 均有成交。",
+      "个人创作者（如 Paul Finds）在品牌 B 成交领先，折扣 Deal／Coupon 类伙伴（如 CouponFeature）在三个品牌均有出单。"
+    ],
+    "brb": [
+      "平均佣金率 10.40%–15.87%；B/C 的 BRB 抵扣约为佣金的 43%，净佣金成本率降至 9.07%／7.44%；A 本期 BRB 高于佣金，净成本为负。"
+    ],
+    "effect": [
+      "品牌 B/C 渠道 ROAS 为 11.03×／13.44×；玩具与 DIY 卖家可通过 Levanta 合作礼物指南媒体、亲子创作者等多类型联盟客。"
+    ],
+    "source_footer_uniform": "来源：Levanta 后台效果报告与创作者报告（Amazon Attribution US，C 含 Creator Connections；2026-08-01 至 10-31）；BRB：A/B 为报表值，C 为补充值。金额取整，计算用原始精度。",
+    "source_footer_split": "",
+    "footnotes": [
+      "类 ACOS＝（Commission − BRB）÷ Sales，以成本占比便于直观类比；ROAS 与类 ACOS 均未计平台费等其他合作费用。",
+      "BRB 适用于已加入计划的美国站合格品牌卖家，比例因品类而异；品牌 A 本期 BRB 高于佣金（净佣金成本 −$1,429），ROAS 与类 ACOS 不适用、不代表普遍预期；品牌 C 含 Creator Connections，BRB 为补充值。"
+    ]
+  },
+  "slide2_footer": "来源：Levanta 后台截图（Amazon Attribution US；C 含 Creator Connections）。BRB：A/B 为报表显示值，C 为补充值（见上一页）；保留截图原始显示，可放大查看。",
+  "media_pages": {
+    "slide4": {
+      "eyebrow": "内容媒体 · 礼物指南 · 亲子创作者",
+      "title": "联盟伙伴推广形式示例（儿童玩具与 DIY 品类）",
+      "subtitle": "以下为儿童玩具／DIY 品类的公开推广内容示例，供了解合作方式，并非前述案例品牌的推广记录。",
+      "footer": "截图为公开网页示例，2026-11 截取；不代表与上述媒体的合作承诺。",
+      "slots": [
+        {
+          "image": "媒体_ApartmentTherapy_测评.png",
+          "name": "Apartment Therapy",
+          "caption": "家居生活媒体｜单品测评与购买推荐",
+          "purpose": "由编辑围绕家庭场景介绍产品用法与亮点，为家长提供选购参考。"
+        },
+        {
+          "image": "媒体_亲子博客_礼物指南.png",
+          "name": "Almost Makes Perfect",
+          "caption": "亲子生活博客｜节日礼物指南与购买入口",
+          "purpose": "按年龄与节日整理玩具清单，带 Amazon 购买入口，承接节日送礼需求。"
+        },
+        {
+          "name": "亲子 KOL 创作者 · TikTok / Instagram",
+          "caption": "亲子 KOL 创作者｜短视频实测与年度清单",
+          "purpose": "通过真实家庭的试玩短视频与年度玩具清单，影响家长的购买决定。",
+          "image": "媒体_OurFavoriteFinds_TikTok.png",
+          "pair": [
+            {
+              "image": "媒体_OurFavoriteFinds_TikTok.png",
+              "crop": [
+                0.46,
+                0,
+                0.08,
+                0
+              ],
+              "height": 320
+            },
+            {
+              "image": "媒体_ToyTestingSisters_Instagram.png"
+            }
+          ]
+        }
+      ],
+      "notes": "来源：用户2026-11-08放入 案例数据/儿童玩具与 DIY 产品/ 的截图（原文件名：媒体测评.png → Apartment Therapy “This Is the Perfect Tool for Cardboard-Obsessed Kids”（2025-09-19，ChompSaw）；博客内容.png → Almost Makes Perfect（almostmakesperfect.com，用户2026-11-08提供站名；博主 Molly）“holiday gift guide 2025 : for the big kids”；tk_Our Favorite Finds.png → TikTok 创作者 Our Favorite Finds（视频内署名 Logan Nathanson，ChompSaw 演示，5777 赞），为去掉左侧导航栏做了可见裁切（左 46%、右 8%）；ins creator.png → Instagram @toytestingsisters（Mandy & Mel，38.3万粉丝），与 TikTok 并排放在第三栏）。站名按截图可见名称写；均为公开页面，说明本品类的推广形式，未将其归为案例品牌的实际推广记录，也不代表上述媒体已与 Levanta 合作。图片原字节嵌入、contain 适配、顶对齐；仅 TikTok 做了可见裁切。类型与作用参考 Levanta 官方说明：https://knowledge.levanta.io/articles/5027539552-discover-different-types-of-creators-in-levanta 。"
+    },
+    "slide5": {
+      "eyebrow": "促销导购 · Newsletter · 付费引流",
+      "title": "联盟伙伴推广形式示例（儿童玩具与 DIY 品类）",
+      "subtitle": "以下为儿童玩具／DIY 品类的公开推广内容示例，供了解合作方式，并非前述案例品牌的推广记录。",
+      "footer": "截图为公开网页示例，2026-11 截取；不代表与上述媒体的合作承诺。",
+      "slots": [
+        {
+          "image": "媒体_Slickdeals_Deal帖.png",
+          "name": "Slickdeals",
+          "caption": [
+            "折扣 Deal 社区｜",
+            "优惠曝光与购买讨论"
+          ],
+          "purpose": "通过优惠价格、投票与讨论，吸引关注促销的消费者发现产品。"
+        },
+        {
+          "image": "媒体_CNNUnderscored_ForKids.png",
+          "name": "CNN Underscored",
+          "caption": [
+            "综合内容媒体｜",
+            "儿童礼物专题与促销导购"
+          ],
+          "purpose": "将产品纳入儿童礼物专题与大促选品，触达媒体读者。",
+          "crop": [
+            0,
+            0,
+            0.33,
+            0
+          ]
+        },
+        {
+          "image": "媒体_TheToyInsider_Newsletter.png",
+          "name": "The Toy Insider · Newsletter",
+          "caption": [
+            "电子邮件 Newsletter｜",
+            "玩具选品直达订阅用户"
+          ],
+          "purpose": "通过玩具媒体的邮件，向其订阅家长推送选品与购买入口。"
+        }
+      ],
+      "slot4": {
+        "name": "Media Buyer · Google 搜索广告",
+        "caption": [
+          "Media Buyer｜",
+          "付费引流与榜单推荐"
+        ],
+        "purpose": "通过搜索广告吸引有购买意向的家长，为产品榜单页面引流。",
+        "images": [
+          {
+            "image": "媒体_MediaBuy_Google搜索广告.png"
+          },
+          {
+            "image": "媒体_MediaBuy_BuyBetter落地页.png",
+            "crop": [
+              0,
+              0,
+              0,
+              0.5
+            ]
+          }
+        ]
+      },
+      "summary": [
+        "通过 Levanta，卖家可连接内容媒体、礼物指南、亲子创作者、Deal、Newsletter 与 Media Buyer 等多类型联盟伙伴，",
+        "组合测评推荐、节日选品、短视频实测、邮件推送与付费引流等推广方式，拓展产品曝光与销售机会。"
+      ],
+      "notes": "来源：用户2026-11-08放入 案例数据/儿童玩具与 DIY 产品/ 的截图（Deal帖.png → Slickdeals 论坛帖 “ACMER Cardboard Tools for Kids… $219”（2025-10-10，Amazon 渠道）；传统媒体导购.png → CNN Underscored “For Kids” 礼物专题列表页，为去掉右侧第三张卡片做了可见裁切（右 33%）；newsletter_The Toy Insider.png → The Toy Insider 邮件 “Products We Love”（用户提供名称，邮件正文未见刊头）；media buy-1.png → Google 搜索 “best cardboard cutter for kids” 的广告结果（10bestspot.com、BuyBetter.ai）；media buy-2.png → BuyBetter “10 Best Cardboard Cutters For Kids of 2026” 落地页（可见裁切：下 50%），两张图为“搜索广告 → 榜单落地页”的付费引流形式示例，不将域名等同于某一 Levanta 公司主体，未作投放业绩主张）。第三栏 Newsletter 示例换为 The Toy Insider（v1 曾用 BenTested YouTube 顶位，v2 起 YouTube 测评.png 未上页，仅在策略页媒体举例中提及）。均为公开页面，说明推广形式，未将其归为案例品牌的实际推广记录，也不代表上述媒体已与 Levanta 合作。Levanta 伙伴类型：https://knowledge.levanta.io/articles/5027539552-discover-different-types-of-creators-in-levanta 。"
+    }
+  },
+  "notes": {
+    "slide1": "统计期：2026-08-01至2026-10-31，三品牌一致。站点 Amazon US；A/B 筛选为 Amazon Attribution US（后台显示 BRB 栏）；C 筛选含 Amazon Attribution US 与 Creator Connections（后台不显示 BRB 栏）。六张截图于2026-11-08逐张重读核对，sha256 见工作底稿 source-manifest.json。\n原始值：A Sales 64609.01 / Conversions 894 / Commission 6722.03 / BRB 8151.50（报表值）；B 70199.86 / 410 / 11140.76 / 4776.72（报表值）；C 153680.97 / 857 / 19936.77 / BRB 8498.78（用户2026-11-08明确补充值）。\n核对：B 按报表 BRB 计算渠道 ROAS 11.03，与后台一致；C 按补充值计算 13.44，与后台 13.44 一致；A 的 BRB（8151.50）高于佣金（6722.03），净佣金成本 −1429.47，后台 ROAS 显示 0，页面 ROAS 与类ACOS 显示“—”并注脚说明，不写“无限 ROAS”，也不写“免费获客/差异化佣金策略”等未经用户确认的话术。\n计算：平均客单价 A 72.27、B 171.22、C 179.32；平均佣金率 A 10.40%、B 15.87%、C 12.97%；净佣金成本 A −1429.47、B 6364.04、C 11437.99；净佣金成本率（类ACOS）A 不适用、B 9.07%、C 7.44%；BRB/Commission A 121.3%、B 42.9%、C 42.6%；BRB/Sales A 12.62%、B 6.80%、C 5.53%。计算脚本 scripts/calculate_metrics.py，金额取整显示，计算使用原始精度。\n伙伴依据（创作者报告可见成交）：People Inc.（C US$23,590.45，Creator Connections，C 最大单一来源，占 C 销售额 15.4%）；Wirecutter（C US$4,886.76）；Babylist（C US$9,341.36）；Evite（C US$6,066.59，电子邀请函/派对策划平台）；个人创作者 Paul Finds（B US$17,271.77，B 最大单一来源，占 24.6%）；CouponFeature（A US$1,654.89、B US$4,168.57、C US$1,399.91，折扣码/促销信息站 https://www.couponfeature.com/ ）；COUPERT（A US$242.91）、Koupon（A US$85.89、B US$2,954.68）、Dealsglo（B US$1,321.95）等 Deal/Coupon 类未点名。各品牌最大单一来源：A Amobeez Ltd.（US$38,144.61，占 59.0%，类型未核实、页面不点名）、B Paul Finds、C People Inc.。vCommission、Smart Gravity、First Media、PartnerWhiz、Wise ecommerce、Tried Tested Reviewed、HappyBirthday、Yeahpromos、Two Wheeling Tots、Bloom And Babe、The Bargain Sisters、Top10best 等未在页面点名。伙伴分类可能交叉，不按互斥分类计算占比。\n产品：用户2026-11-08指定三品牌统一写“儿童玩具与 DIY 产品”，英文为制作方补充的译法 Kids' Toys & DIY Products。类目标签页面写“儿童玩具与 DIY 类”。\nBRB政策入口：https://sellercentral.amazon.com/help/hub/reference/external/GL9HPJ34VBFP76HX ；https://advertising.amazon.com/resources/whats-new/brand-referral-bonus-amazon-attribution 。ACOS术语来源：https://advertising.amazon.com/library/guides/acos-advertising-cost-of-sales 。类ACOS仅为成本占比类比，不等同于Amazon Ads后台ACOS。",
+    "slide2": "六张源PNG完整嵌入（原始分辨率，未重绘、未改数）：A效果1993×986、A创作者1982×1318、B效果2001×995、B创作者1986×1311、C效果1999×985、C创作者1982×1307。六张图日期均为2026-08-01至2026-10-31，统一显示近三个月（0801–1031）。A/B 站点筛选 Amazon Attribution US，效果图曲线为销售额，BRB 为截图实际值（A 8151.50、B 4776.72；A 后台 ROAS 显示 0，因 BRB 高于佣金）；C 筛选含 Creator Connections，效果图三条曲线分别为 Amazon Attribution US、Creator Connections、总计，均为销售额，不作曲线间数值比较，后台无 BRB 栏，BRB 为用户补充值 8498.78。源文件SHA256见工作底稿 source-manifest.json。",
+    "slide4": null
+  }
+}

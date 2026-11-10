@@ -1,0 +1,61 @@
+{
+  "_notice": "示例配置含真实案例的后台数据与合作方信息，仅供团队内部作格式参考；不得外发，不得作为新案例的数据。",
+  "insert_after": 5,
+  "eyebrow": "站外推广 · 媒体组合",
+  "title": "儿童玩具与 DIY 品牌的站外媒体组合",
+  "subtitle": "按 Levanta 联盟伙伴类型整理，同类品牌已在组合使用；具体合作媒体以双方匹配为准。",
+  "columns": [
+    "媒体类型",
+    "适合做的内容",
+    "主要作用",
+    "媒体举例"
+  ],
+  "rows": [
+    {
+      "type": "内容媒体与垂类媒体",
+      "type_sub": "家居生活、亲子、DIY／手工／创客类媒体",
+      "content": "单品测评、家庭使用场景文章、「值得买」推荐",
+      "role": "建立产品可信度，覆盖主动搜索的家长",
+      "examples": "Apartment Therapy、People Inc. 旗下媒体、Wirecutter"
+    },
+    {
+      "type": "榜单与礼物指南",
+      "type_sub": "购物导购、节日礼物指南、按年龄段清单",
+      "content": "节日礼物清单、按年龄／兴趣的玩具榜单、对比评测",
+      "role": "承接节日与送礼需求，带购买入口直接转化",
+      "examples": "CNN Underscored、Babylist、Evite、Almost Makes Perfect"
+    },
+    {
+      "type": "红人创作者",
+      "type_sub": "亲子、家庭生活、玩具实测、DIY 教程创作者",
+      "content": "开箱与试玩视频、亲子动手教程、年度玩具清单",
+      "role": "用真实家庭场景激发兴趣，种草到下单",
+      "examples": "Toy Testing Sisters（Instagram）、Our Favorite Finds（TikTok）、BenTested（YouTube）、Paul Finds"
+    },
+    {
+      "type": "Deal 与 Coupon",
+      "type_sub": "折扣社区、优惠码站、比价工具、品类 Newsletter",
+      "content": "大促 Deal 帖、折扣码、价格追踪、邮件选品推送",
+      "role": "放大促销期流量，冲排名与清库存",
+      "examples": "Slickdeals、CouponFeature、Koupon、The Toy Insider（Newsletter）"
+    },
+    {
+      "type": "Media Buyer",
+      "type_sub": "付费引流",
+      "content": "搜索广告 → 榜单／测评落地页",
+      "role": "按成交付费获取增量流量，不占自有广告预算",
+      "examples": "Google 搜索广告 → 导购榜单页（BuyBetter 等）"
+    }
+  ],
+  "band": "以上类型均可通过 Levanta 一站接入：按成交计佣、Amazon 官方 API 归因，同一后台管理全部伙伴。",
+  "footer": "媒体举例来自本案例三个品牌的创作者报告（有成交）或第 4–5 页公开截图，仅说明伙伴类型，不代表合作承诺。",
+  "notes": "本页为通用策略页模板在儿童玩具与 DIY 品类的实例（模板 strategy-page-default.json）。五类按 Levanta 伙伴类型整理；用户2026-11-08确认不写演示 CTA（钩子页与联系页已有），底部只保留 Levanta 定位一句。媒体举例依据：People Inc.（C US$23,590.45，Creator Connections）、Wirecutter（C US$4,886.76）、Babylist（C US$9,341.36）、Evite（C US$6,066.59）、Paul Finds（B US$17,271.77）、CouponFeature（A/B/C 均有成交）、Koupon（A/B）——以上为创作者报告可见成交；Apartment Therapy、CNN Underscored、Almost Makes Perfect（almostmakesperfect.com，用户2026-11-08提供站名）、Toy Testing Sisters、Our Favorite Finds（TikTok，视频内创作者署名 Logan Nathanson）、BenTested、The Toy Insider、BuyBetter 为用户提供的公开截图。Newsletter 并入 Deal 与 Coupon 行（也可单列）；Cashback 未列。",
+  "col_widths": [
+    230,
+    290,
+    270,
+    384.4
+  ],
+  "row_height": 76,
+  "band_height": 46
+}

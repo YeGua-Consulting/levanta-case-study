@@ -1,0 +1,75 @@
+{
+  "slide4": {
+    "eyebrow": "内容媒体 · 榜单测评 · 视频演示",
+    "title": "联盟伙伴推广形式示例（家居安防品类为主）",
+    "subtitle": "以下为保险箱／家居安防品类的公开推广内容示例，供了解合作方式，并非前述案例品牌的推广记录。",
+    "footer": "截图为公开网页示例，2026-11 截取；不代表与上述媒体的合作承诺。",
+    "slots": [
+      {
+        "image": "媒体_GunUniversity_实测.png",
+        "name": "Gun University",
+        "caption": "垂直内容媒体｜实测评测与选购推荐",
+        "purpose": "围绕枪柜／保险箱的使用需求介绍产品表现与适用场景，为目标消费者提供选购参考。"
+      },
+      {
+        "image": "媒体_SafesRight_榜单.png",
+        "name": "SafesRight",
+        "caption": "榜单推荐与对比｜突出产品差异",
+        "purpose": "集中呈现产品卖点、评分与 Amazon 购买入口，帮助有购买意向的用户比较选择。"
+      },
+      {
+        "image": "媒体_OutdoorLife_YouTube.png",
+        "name": "Outdoor Life · YouTube",
+        "caption": "媒体视频内容｜开箱与实物演示",
+        "purpose": "通过视频展示产品内部结构与使用场景，让用户直观了解产品。"
+      }
+    ],
+    "notes": "品类示例库 · 家居安防类（2026-11-06 截取）：Gun University “Best Biometric Gun Safe 2026 [Hands-On Tested]”；SafesRight “Top 10 Best Gun Safes on Amazon (Pistol Safes & Cabinets) in 2024”；Outdoor Life 频道 YouTube “A Look Inside the Sentry Safe Waterproof/Fireproof Safe”。均为公开页面，说明推广形式，不是案例品牌的推广记录，也不代表上述媒体已与 Levanta 合作。"
+  },
+  "slide5": {
+    "eyebrow": "促销导购 · 垂直媒体 · 付费引流",
+    "title": "联盟伙伴推广形式示例（家居安防品类为主）",
+    "subtitle": "以下为保险箱／家居安防品类的公开推广内容示例（Media Buyer 一栏为跨类目示例），并非前述案例品牌的推广记录。",
+    "footer": "截图为公开网页示例，2026-11 截取；Media Buyer 一栏沿用跨类目示例。",
+    "slots": [
+      {
+        "image": "媒体_Slickdeals_Deal帖子.png",
+        "name": "Slickdeals",
+        "caption": [
+          "折扣 Deal 社区｜",
+          "优惠曝光与购买讨论"
+        ],
+        "purpose": "通过优惠价格、投票与讨论，吸引关注促销的消费者发现产品。"
+      },
+      {
+        "image": "媒体_SafeWise_榜单.png",
+        "name": "SafeWise",
+        "caption": [
+          "家居安全垂类媒体｜",
+          "榜单推荐与购买入口"
+        ],
+        "purpose": "面向关注家庭安全的读者给出选购榜单，并直接提供 Amazon 购买入口。"
+      },
+      {
+        "image": "媒体_PewPewTactical_榜单.png",
+        "name": "Pew Pew Tactical",
+        "caption": [
+          "枪械／户外垂直媒体｜",
+          "年度榜单与实测"
+        ],
+        "purpose": "以品类年度榜单覆盖不同预算与类型，为专业用户提供推荐。",
+        "crop": [
+          0.25,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "summary": [
+      "通过 Levanta，卖家可连接内容媒体、KOL、Deal 与 Media Buyer 等多类型联盟伙伴，",
+      "组合测评推荐、榜单导购、Deal 曝光与付费引流等推广方式，拓展产品曝光与销售机会。"
+    ],
+    "notes": "品类示例库 · 家居安防类（2026-11-06 截取）：Slickdeals 论坛帖 “Vaultek Barikade Precision Built Biometric Compact Safe $99.99”（Costco 渠道，已过期）；SafeWise “Top 5 best gun safes of 2026”；Pew Pew Tactical “15 Best Gun Safes 2026: Every Type & Budget Tested”（左裁 25% 去空白）。第四栏 Media Buyer 沿用模板跨类目示例（Google Ads Transparency Center 中 buyereviews.com 域名的广告，广告主显示 OOMCOMMERCE INC，不等同于某一 Levanta 主体）。均为公开页面，不代表合作承诺。"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "insert_after": 5,
+  "eyebrow": "站外推广 · 媒体组合",
+  "title": "〔品类〕品牌的站外媒体组合",
+  "subtitle": "按 Levanta 联盟伙伴类型整理，同类品牌已在组合使用；具体合作媒体以双方匹配为准。",
+  "columns": [
+    "媒体类型",
+    "适合做的内容",
+    "主要作用",
+    "媒体举例"
+  ],
+  "rows": [
+    {
+      "type": "内容媒体与垂类媒体",
+      "type_sub": "〔综合媒体 / 品类垂直媒体〕",
+      "content": "单品测评、使用场景文章、「值得买」推荐",
+      "role": "建立产品可信度，覆盖主动搜索和比较的消费者",
+      "examples": "〔本品类有成交或公开可见的媒体 2–3 个〕"
+    },
+    {
+      "type": "榜单与导购",
+      "type_sub": "〔购物导购 / 礼物指南 / 对比榜单〕",
+      "content": "品类榜单、节日与场景选品清单、对比评测",
+      "role": "承接明确购买意向，带购买入口直接转化",
+      "examples": "〔榜单 / 导购媒体 2–3 个〕"
+    },
+    {
+      "type": "红人创作者",
+      "type_sub": "〔本品类相关的创作者类型〕",
+      "content": "开箱与实测视频、使用教程、年度清单",
+      "role": "用真实使用场景激发兴趣，种草到下单",
+      "examples": "〔创作者 2–3 个，平台：Instagram / TikTok / YouTube〕"
+    },
+    {
+      "type": "Deal 与 Coupon",
+      "type_sub": "折扣社区 / 优惠码站 / 比价与返利工具",
+      "content": "大促 Deal 帖、折扣码、价格追踪与返利",
+      "role": "放大促销期流量，冲排名与清库存",
+      "examples": "Slickdeals、CouponFeature、camelcamelcamel"
+    },
+    {
+      "type": "Media Buyer",
+      "type_sub": "付费引流",
+      "content": "搜索 / 展示广告 → 榜单或测评落地页",
+      "role": "按成交付费获取增量流量，不占自有广告预算",
+      "examples": "Google 搜索广告 → 导购榜单页"
+    }
+  ],
+  "band": "以上类型均可通过 Levanta 一站接入：按成交计佣、Amazon 官方 API 归因，同一后台管理全部伙伴。",
+  "footer": "媒体举例来自本案例品牌的创作者报告或公开页面，仅说明伙伴类型，不代表合作承诺；Newsletter 与 Cashback 分别并入「榜单与导购」「Deal 与 Coupon」。",
+  "notes": "通用策略页模板：五类伙伴按 Levanta 伙伴类型整理（内容媒体与垂类媒体 / 榜单与导购 / 红人创作者 / Deal 与 Coupon / Media Buyer），每个案例只改〔〕内的品类相关内容与媒体举例；媒体举例只写本案例创作者报告里有成交、或用户提供截图里可见的主体，不编造。底部色带只写 Levanta 定位，不写演示 CTA（钩子页与联系页已有）。",
+  "col_widths": [
+    230,
+    290,
+    270,
+    384.4
+  ],
+  "row_height": 76,
+  "band_height": 46
+}

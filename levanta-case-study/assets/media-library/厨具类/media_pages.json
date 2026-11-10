@@ -1,0 +1,97 @@
+{
+  "slide4": {
+    "eyebrow": "内容媒体 · 测评榜单 · 创作者",
+    "title": "联盟伙伴推广形式示例（厨具品类）",
+    "subtitle": "以下为厨具品类的公开推广内容示例，供了解合作方式，并非前述案例品牌的推广记录。",
+    "footer": "截图为公开网页示例，2026-11 截取；不代表与上述媒体的合作承诺。",
+    "slots": [
+      {
+        "image": "媒体_FoodAndWine_刀具大促专题.png",
+        "name": "Food & Wine",
+        "caption": "美食垂类媒体｜大促刀具选购专题",
+        "purpose": "由刀具测评编辑整理购物节刀具推荐，带 Amazon 购买入口，承接大促需求。"
+      },
+      {
+        "image": "媒体_CNNUnderscored_刀具实测.png",
+        "name": "CNN Underscored",
+        "caption": "综合媒体测评｜实测榜单与推荐",
+        "purpose": "编辑实测多套刀具后给出推荐，为消费者选购提供背书。"
+      },
+      {
+        "image": "媒体_YouTube_刀具开箱实测.png",
+        "name": "YouTube 创作者 · 开箱实测",
+        "caption": "视频创作者｜开箱与切割实测",
+        "purpose": "通过开箱、切割测试等真实使用视频建立信任，影响购买决定。"
+      }
+    ],
+    "notes": "来源：用户2026-11-09放入 案例数据/厨具类/ 的截图（原文件名：垂类媒体.png → Food & Wine “We Found Amazon’s Best Black Friday Knife Deals, Including Shun, Zwilling, and Wüsthof”（2025-11-28，作者 Jason Horn，Food & Wine 为 People Inc. 旗下）；垂类媒体-2.png → CNN Underscored “We tested 8 knife sets and found 3 that made us feel like a proper home chef”（2026-10-23 更新）；youtube.png → YouTube 视频 “Astercook Knife Set Unboxing & Honest Performance Test!”（创作者频道名未在截图中可见，页面写泛称“YouTube 创作者 · 开箱实测”））。站名按截图可见名称写；均为公开页面，说明本品类的推广形式，未将其归为案例品牌的实际推广记录，也不代表上述媒体已与 Levanta 合作；截图中出现的品牌为公开页面原有内容，不作评价。图片原字节嵌入、contain 适配、顶对齐，未裁切。类型与作用参考 Levanta 官方说明：https://knowledge.levanta.io/articles/5027539552-discover-different-types-of-creators-in-levanta 。"
+  },
+  "slide5": {
+    "eyebrow": "综合媒体导购 · Deal · 付费引流",
+    "title": "联盟伙伴推广形式示例（厨具品类）",
+    "subtitle": "以下为厨具品类的公开推广内容示例，供了解合作方式，并非前述案例品牌的推广记录。",
+    "footer": "截图为公开网页与邮件示例，2026-11 截取；不代表与上述媒体的合作承诺。",
+    "slots": [
+      {
+        "image": "媒体_Slickdeals_刀具Deal帖.png",
+        "name": "Slickdeals",
+        "caption": [
+          "折扣 Deal 社区｜",
+          "优惠曝光与购买讨论"
+        ],
+        "purpose": "通过优惠价格、投票与讨论，吸引关注促销的消费者发现产品。",
+        "crop": [
+          0,
+          0,
+          0.3,
+          0
+        ]
+      },
+      {
+        "image": "媒体_ShopTODAY_畅销榜导购.png",
+        "name": "Shop TODAY",
+        "caption": [
+          "综合媒体导购｜",
+          "Amazon 畅销榜专题推荐"
+        ],
+        "purpose": "将产品纳入电视媒体的 Amazon 畅销榜专题，触达大众读者。"
+      },
+      {
+        "image": "媒体_FoodAndWine_Newsletter.png",
+        "name": "Food & Wine · Newsletter",
+        "caption": [
+          "电子邮件 Newsletter｜",
+          "美食媒体选品直达订阅用户"
+        ],
+        "purpose": "通过美食媒体的邮件，向订阅读者推送刀具折扣与购买入口。"
+      }
+    ],
+    "slot4": {
+      "name": "Media Buyer · Google 搜索广告",
+      "caption": [
+        "Media Buyer｜",
+        "付费引流与榜单推荐"
+      ],
+      "purpose": "通过搜索广告吸引有购买意向的消费者，为刀具榜单页引流。",
+      "images": [
+        {
+          "image": "媒体_MediaBuy_Google搜索广告.png"
+        },
+        {
+          "image": "媒体_BargainHunter_榜单落地页.png",
+          "crop": [
+            0,
+            0,
+            0,
+            0.5
+          ]
+        }
+      ]
+    },
+    "summary": [
+      "通过 Levanta，卖家可连接美食与生活媒体、测评榜单、创作者、Deal、Newsletter 与 Media Buyer 等多类型联盟伙伴，",
+      "组合专题推荐、实测背书、开箱视频、邮件推送与付费引流等推广方式，拓展产品曝光与销售机会。"
+    ],
+    "notes": "来源：用户2026-11-09放入 案例数据/厨具类/ 的截图（媒体导购.png → Shop TODAY（NBC TODAY 购物栏目）“Amazon September bestsellers seen on TODAY”，所示单品 Astercook Spoonula；media_buy_1.png → Google 搜索 “best 10 Knife Set” 的 Sponsored Results（Sakura Knives、bargainhunter.com）；榜单类.png → Bargain Hunter “10 Best Knife Sets of 2026”落地页（2026-11-09 更新，第 1 位 KEEMAKE；可见裁切：下 50%），两张图为“搜索广告 → 榜单落地页”的付费引流形式示例，不将域名等同于某一 Levanta 公司主体，未作投放业绩主张）。slickdeals.png → Slickdeals 论坛帖 “NULAS Knife Set, 15-Piece Kitchen Knife Set with Block… $24.99”（2026-11-05，发帖人 Immortalsolitude，渠道 Walmart；可见裁切：右 30%，保留站名与帖子主体），作为 Deal 社区形式示例，渠道非 Amazon 不影响形式说明。newsletter.png → Food & Wine 邮件 “Today’s Fresh Finds”（含 “43% Off: This Chef’s Knife Slices Through Meat ‘Like It’s Butter’” 刀具折扣条目），作为美食媒体 Newsletter 形式示例，未裁切。至此第 4–5 页七栏均为厨具品类公开截图，无模板跨类目图。均为公开页面，说明推广形式，未将其归为案例品牌的实际推广记录，也不代表上述媒体已与 Levanta 合作；截图中出现的品牌为公开页面原有内容，不作评价。Levanta 伙伴类型：https://knowledge.levanta.io/articles/5027539552-discover-different-types-of-creators-in-levanta 。"
+  }
+}

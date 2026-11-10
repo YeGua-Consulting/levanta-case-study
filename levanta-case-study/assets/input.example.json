@@ -1,0 +1,30 @@
+{
+  "_notice": "示例配置含真实案例的后台数据与合作方信息，仅供团队内部作格式参考；不得外发，不得作为新案例的数据。",
+  "currency": "USD",
+  "brands": [
+    {
+      "label": "品牌 A",
+      "sales": "64609.01",
+      "commission": "6722.03",
+      "conversions": 894,
+      "brb": "8151.50",
+      "backend_roas": 0
+    },
+    {
+      "label": "品牌 B",
+      "sales": "70199.86",
+      "commission": "11140.76",
+      "conversions": 410,
+      "brb": "4776.72",
+      "backend_roas": 11.03
+    },
+    {
+      "label": "品牌 C",
+      "sales": "153680.97",
+      "commission": "19936.77",
+      "conversions": 857,
+      "brb": "8498.78",
+      "backend_roas": 13.44
+    }
+  ]
+}
