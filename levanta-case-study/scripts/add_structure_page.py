@@ -10,7 +10,9 @@ structure.json
   "eyebrow": "为 ×× 准备 · 出单伙伴结构与覆盖现状",
   "title": "…", "subtitle": "…",
   "chart": {"title": "Levanta 全网近 12 个月前 100 伙伴的销售额占比",
-            "bars": [{"label": "内容型伙伴（媒体＋创作者）", "value": 53, "highlight": true}, …],
+            "bars": [{"label": "内容型伙伴（媒体＋创作者）", "value": 53, "highlight": true, "value_label": "一半以上"}, …],
+            # value drives the bar length; value_label (optional) replaces the printed "53%" — use it when the
+            # figure is an internal analysis that should be shown rounded ("约三成") rather than as an exact statistic
             "note": "来源：…"},
   "table": {"columns": ["伙伴类型", "客户现状", "机会点"], "col_widths": [150, 240, 237],
             "rows": [{"type": "内容型 · 创作者", "status": "✓ 已有", "status_kind": "yes|no|none",
@@ -66,7 +68,7 @@ def main(src, dst, cfg_path, after=None):
     add_rect(slide, "Chart panel", cx, cy, cw, 350, "FFFFFF", C_LINE)
     add_text(slide, "Chart title", cx + 18, cy + 12, cw - 36, 24, [[(ch["title"], 11.5, C_TEXT, True)]], anchor=MSO_ANCHOR.MIDDLE)
     bars = ch["bars"]
-    label_w, val_w, gap = 170, 52, 12
+    label_w, val_w, gap = 170, cfg.get("chart", {}).get("value_width", 52), 12
     track_x = cx + 18 + label_w + gap
     track_w = cw - 36 - label_w - gap - val_w - gap
     n = len(bars)
@@ -82,7 +84,7 @@ def main(src, dst, cfg_path, after=None):
         fill_w = max(2, track_w * float(b["value"]) / vmax)
         add_rect(slide, f"Bar fill {i}", track_x, by, fill_w, bar_h, C_DARK if b.get("highlight") else C_ACCENT)
         add_text(slide, f"Bar value {i}", track_x + track_w + gap, by - 6, val_w, bar_h + 12,
-                 [[(f"{b['value']}%", 12, C_TEXT, True)]], anchor=MSO_ANCHOR.MIDDLE)
+                 [[(b.get("value_label", f"{b['value']}%"), 12, C_TEXT, True)]], anchor=MSO_ANCHOR.MIDDLE)
     if ch.get("note"):
         add_text(slide, "Chart note", cx + 18, cy + 350 - 50, cw - 36, 40, [[(ch["note"], 8, C_MUTED, False)]], anchor=MSO_ANCHOR.MIDDLE)
 
