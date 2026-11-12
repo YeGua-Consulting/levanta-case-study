@@ -54,7 +54,7 @@ BRB 三种情况：报表值直接用；后台不显示（含 Creator Connection
 - **策略页**（详见 `strategy-page.md`）：五类框架固定——内容媒体与垂类媒体 / 榜单与导购 / 红人创作者 / Deal 与 Coupon / Media Buyer；每个品类只改子说明、内容里的品类词、媒体举例。媒体举例只用本案例有成交或用户给了截图的主体。底部色带只写 Levanta 定位，不写演示 CTA（钩子页和联系页已有）。
 - **钩子页**（详见 `hook-page.md`）：六问面向不同站外基础的卖家，只列问题不写答案；为客户定制时按共性痛点改 1–2 条，不写客户原话、公司名（眉题除外）、竞品名。定位文案用官方原句，不改写。
 - **联系页**（详见 `contact-page.md`）：`contact.json` 四项必填，脚本缺项即停——模板里自带的联系人是原作者，绝不能原样发出。
-- **定向版**：客户名只出现在第 1、6、7 页眉题（“为 ×× 准备 · …”）与文件名；结论若客户现状不详，强调“同类品牌站外出单媒体多元”，不对客户现状下判断。
+- **定向版**：客户名只出现在第 1、6、7 页眉题（“为 ×× 准备 · …”）与文件名；结论若客户现状不详，强调“同类品牌站外出单媒体多元”，不对客户现状下判断。客户在比较平台时，加一页 `structure.json`“出单伙伴结构 × 覆盖现状”（详见 `structure-page.md`）：左边 Levanta 平台伙伴类型占比（官方汇总数据），右边客户已覆盖/未覆盖的类型与机会点；不出现其他平台名称。
 
 ## 数据合规（优先级高于一切版式要求）
 
@@ -78,10 +78,11 @@ BRB 三种情况：报表值直接用；后台不显示（含 Creator Connection
 | `assets/reference.pptx` | 六页模板（唯一视觉基准，第 3 页已是 1/3/10 万档位；第 1–2 页为占位数据与已打码截图），只读 |
 | `assets/reference-slide-1…6.jpg`、`strategy-page-preview.jpg`、`hook-page-preview.jpg` | 各页预览 |
 | `assets/levanta-logo.png` | 官方 Logo（已嵌模板） |
-| `assets/*.example.json`、`hook-page-default.json`、`strategy-page-default.json` | 配置范例与默认内容 |
+| `assets/*.example.json`、`hook-page-default.json`、`strategy-page-default.json`、`structure-page-default.json`、`overview-page.example.json` | 配置范例与默认内容 |
 | `assets/media-library/<品类>/` | 品类媒体示例包：截图 + 配好的 `media_pages.json` + README（来源说明）；做过的新品类往这里加 |
 | `scripts/make_case.py` | 一键流水线（指标 → 八页 → PDF → 渲染 → QA） |
 | `scripts/build.py` / `media_pages.py` / `cost_page.py` / `contact_page.py` / `add_strategy_page.py` / `add_questions_page.py` / `calculate_metrics.py` | 各模块，make_case 自动调用 |
+| `scripts/add_structure_page.py` | 定向版“出单伙伴结构 × 覆盖现状”页，make_case 发现 `structure.json` 自动调用 |
 | `scripts/redact_shots.py` | 后台截图打码（KPI 数值、创作者名称、金额），build 默认调用；也可单独 `python3 redact_shots.py in.png out.png` |
 | `references/input-checklist.md` | 必须提供 / 按情况提供 / 模板固定 |
 | `references/config-reference.md` | 所有配置字段 |

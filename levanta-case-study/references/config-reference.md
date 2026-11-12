@@ -8,6 +8,7 @@
 ├── input.json            三品牌原始数值（必填）
 ├── contact.json          发送人联系信息（必填）
 ├── strategy.json         策略页（可选；从 assets/strategy-page-default.json 复制后改）
+├── structure.json        定向版“出单伙伴结构 × 覆盖现状”页（可选；范例 assets/structure-page-default.json，见 structure-page.md）
 ├── overview.json         额外表格页（可选；与 strategy.json 同一渲染器、自定义 columns；如“多品类案例速览”，范例 assets/overview-page.example.json）
 ├── questions.json        钩子页（可选；从 assets/hook-page-default.json 复制后改）
 ├── contact-qr.png        发送人二维码（contact.json 里引用）

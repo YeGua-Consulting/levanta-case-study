@@ -10,6 +10,7 @@ Case folder layout (see references/input-checklist.md):
     sources/           the six backend screenshots (+ optional category media screenshots, QR image)
     strategy.json      optional (copy assets/strategy-page-default.json and fill in); omit or --no-strategy to skip
     overview.json      optional extra table page (same format as strategy.json, custom "columns"; e.g. 多品类案例速览)
+    structure.json     optional 定向版 page: platform partner-type shares × client coverage/opportunity table
     questions.json     optional (copy assets/hook-page-default.json); omit or --no-hook to skip
 
 Outputs in <case_dir>/out/: <name>.pptx, <name>.pdf (if soffice), render/page-N.jpg (if pdftoppm), validation.json
@@ -32,6 +33,7 @@ from calculate_metrics import calculate  # noqa: E402
 from build import build  # noqa: E402
 import add_strategy_page  # noqa: E402
 import add_questions_page  # noqa: E402
+import add_structure_page  # noqa: E402
 
 FIXED_LABELS = {"指标", "品牌 A", "品牌 B", "品牌 C", "创作者报告", "品牌 A / B / C 后台截图", "主要产品",
                 "归因销售额 Sales", "转化量 Conversions", "平均客单价 Sales / Conversions", "联盟佣金 Commission",
@@ -163,6 +165,7 @@ def main():
     ap.add_argument("--no-strategy", action="store_true")
     ap.add_argument("--no-hook", action="store_true")
     ap.add_argument("--no-overview", action="store_true", help="skip overview.json even if present")
+    ap.add_argument("--no-structure", action="store_true", help="skip structure.json even if present")
     ap.add_argument("--name", help="output file stem (default: Levanta_<类目>_案例与推广示例_<N页>_<YYYYMMDD>)")
     a = ap.parse_args()
     case, skill = a.case.resolve(), a.skill.resolve()
@@ -186,6 +189,11 @@ def main():
     if not a.no_strategy and (case / "strategy.json").exists():
         nxt = out / "candidate_s.pptx"
         add_strategy_page.main(str(cur), str(nxt), str(case / "strategy.json"))
+        cur, pages = nxt, pages + 1
+    # 3a) optional partner-structure × client-coverage page (定向版); inserted at its own insert_after (default 5)
+    if not a.no_structure and (case / "structure.json").exists():
+        nxt = out / "candidate_x.pptx"
+        add_structure_page.main(str(cur), str(nxt), str(case / "structure.json"))
         cur, pages = nxt, pages + 1
     # 3b) optional overview / extra table page (same renderer as the strategy page; its own insert_after)
     if not a.no_overview and (case / "overview.json").exists():
@@ -228,7 +236,7 @@ def main():
     print(json.dumps(report, ensure_ascii=False, indent=2))
     if not report["ok"]:
         print("[make_case] QA 有未通过项，见上方 validation.json；修正后重跑")
-    for f in ("candidate.pptx", "candidate_s.pptx", "candidate_o.pptx", "candidate_h.pptx"):
+    for f in ("candidate.pptx", "candidate_s.pptx", "candidate_x.pptx", "candidate_o.pptx", "candidate_h.pptx"):
         p = out / f
         if p.exists() and p != final:
             p.unlink()
